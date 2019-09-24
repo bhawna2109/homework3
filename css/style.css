@@ -1,0 +1,95 @@
+head{
+  margin-left: 15px;
+}
+
+body{
+  font-family: "Quicksand", sans-serif;
+  background: #dddddd url("../images/pidgeon-background.jpg") no-repeat;
+  margin-left: 15px;
+}
+h1{ 
+  font-size: 2em;
+  line-height: 1.5;
+  color: #c12258;
+}
+p{
+  color: black;
+  font-size: 18px;
+  padding-top: 15px;
+}
+a{
+  font-size: 18px;
+  color: #c12258;
+}
+a.focus{
+  border: 1px solid red;
+}
+
+table {
+  border-radius: 10px;
+  border: 2px solid black;
+  border-collapse: separate;
+  border-spacing: 0px;
+}
+
+th.colhead{
+  min-width: 150px;
+  padding: 10px;
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+  background-color: #7e0830;
+}
+
+td{
+  text-align: center;
+  padding: 15px;
+  border-top: 2px solid black;
+}
+
+th.rowhead{
+  border-top: 2px solid black;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+tr:hover{
+  background-color: #fab9cf;
+}
+
+/* top-left border-radius */
+table thead tr:first-child th:first-child {
+  border-top-left-radius: 10px;
+}
+
+/* top-right border-radius */
+table thead tr:first-child th:last-child {
+  border-top-right-radius: 10px;
+}
+
+/* bottom-left border-radius */
+table tbody tr:last-child th{
+  border-bottom-left-radius: 10px;
+}
+
+/* bottom-right border-radius */
+table tbody tr:last-child td:last-child {
+  border-bottom-right-radius: 10px;
+}
+
+footer{
+  display: block;
+  position: fixed;
+  bottom: 0;
+  background-color: black;
+  height: 10vh;
+  width: 100%;
+  min-width: 60px;
+}
+
+footer p{
+  text-align: center;
+  color: white;
+}
